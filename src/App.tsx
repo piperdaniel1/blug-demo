@@ -25,7 +25,7 @@ function App() {
               hobbies!
             </p>
             <div className="mt-4 flex w-full justify-center">
-              <Link to={"/hobbies"}>
+              <Link to={"/hbbies"}>
                 <button className="rounded border-b-4 border-blue-700 bg-blue-500 px-4 py-2 font-bold text-white hover:border-blue-500 hover:bg-blue-400">
                   Tux's Hobbies
                 </button>
