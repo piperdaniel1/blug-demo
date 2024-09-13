@@ -1,0 +1,16 @@
+features:
+  - buildpack-stack=ubuntu-22
+
+name: blug-demo
+region: nyc
+static_sites:
+  - environment_slug: html
+    github:
+      branch: main
+      deploy_on_push: false
+      repo: piperdaniel1/blug-demo
+    name: website
+    build_command: npm run build
+    run_command: npm run start
+    catchall_document: index.html
+    source_dir: /
