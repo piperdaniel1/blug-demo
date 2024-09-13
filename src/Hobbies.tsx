@@ -1,6 +1,7 @@
 import TuxSnowboarding from "./assets/tux-snowboarding.webp";
 import TuxCampfire from "./assets/tux-campfire.webp";
 import TuxSnowman from "./assets/tux-snowman.webp";
+import TuxCurling from "./assets/tux-curling.webp";
 
 function Hobbies() {
   return (
@@ -54,6 +55,21 @@ function Hobbies() {
           </div>
 
           {/* Add the new hobby here */}
+          <div className="mb-10 mt-10 flex w-full flex-col items-center justify-between md:flex-row-reverse">
+            <img src={TuxCurling} className="w-3/4 rounded md:w-[450px]" />
+            <div className="mt-3 w-11/12 md:mr-10 md:mt-0 md:w-full">
+              <h2 className="text-2xl text-gold-500">Curling with Friends</h2>
+              <p>
+                Curling with friends has become one of my unexpected winter
+                favorites. There's something special about the mix of strategy,
+                skill, and fun that makes every game feel like a new adventure.
+                Whether I'm carefully pushing the stone down the ice or cheering
+                on my teammates, it's always a blast. Plus, the snowy hills and
+                frosted trees in the background give the whole experience a
+                magical touch. It's definitely a unique way to enjoy the winter!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
